@@ -38,3 +38,12 @@ export default async function ProjectPageForModal({
     </ProjectModal>
   );
 }
+
+export function generateStaticParams() {
+  return [
+    { projectId: 'welle' },
+    { projectId: 'bvg' },
+    { projectId: 'eisenhower' },
+    { projectId: 'encryptnotes' },
+  ];
+}
