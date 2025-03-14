@@ -53,3 +53,13 @@ export default async function ProjectPage({
     </div>
   );
 }
+
+
+export function generateStaticParams() {
+  return [
+    { projectId: 'welle' },
+    { projectId: 'bvg' },
+    { projectId: 'eisenhower' },
+    { projectId: 'encryptnotes' },
+  ];
+}
