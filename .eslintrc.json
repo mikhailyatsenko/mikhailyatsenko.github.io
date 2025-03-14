@@ -6,7 +6,7 @@
   ],
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "error"
-  },
-  "ignoreDuringBuilds": true
+    "prettier/prettier": "error",
+    "ignoreDuringBuilds": true
+  }
 }

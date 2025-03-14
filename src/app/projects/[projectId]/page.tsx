@@ -1,3 +1,12 @@
+export function generateStaticParams() {
+  return [
+    { projectId: 'welle' },
+    { projectId: 'bvg' },
+    { projectId: 'eisenhower' },
+    { projectId: 'encryptnotes' },
+  ];
+}
+
 import { HeroProject } from '@/app/components/project/HeroProject';
 import { ProjectFeatures } from '@/app/components/project/ProjectFeatures';
 import { ProjectIds, projectsData } from '@/lib/projectsData';
@@ -55,11 +64,3 @@ export default async function ProjectPage({
 }
 
 
-export function generateStaticParams() {
-  return [
-    { projectId: 'welle' },
-    { projectId: 'bvg' },
-    { projectId: 'eisenhower' },
-    { projectId: 'encryptnotes' },
-  ];
-}
