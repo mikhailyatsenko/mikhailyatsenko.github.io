@@ -47,4 +47,3 @@ export default async function ProjectPageForModal({
     </ProjectModal>
   );
 }
-

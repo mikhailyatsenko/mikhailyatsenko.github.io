@@ -62,5 +62,3 @@ export default async function ProjectPage({
     </div>
   );
 }
-
-
